@@ -1,5 +1,9 @@
 {
   "item.testingmod.ruby": "Ruby",
   "item.testingmod.raw_ruby": "Raw Ruby",
-  "itemgroup.ruby": "Ruby"
+  "itemgroup.ruby": "Ruby",
+  "block.testingmod.ruby_block": "Block of Ruby",
+  "block.testingmod.raw_ruby_block": "Block of Raw Ruby",
+  "block.testingmod.bouncy_bed_block": "Bouncy Bed Block",
+  "block.testingmod.ruby_ore": "Ruby Ore"
 }

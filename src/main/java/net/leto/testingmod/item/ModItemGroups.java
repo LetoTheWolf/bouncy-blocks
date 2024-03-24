@@ -2,6 +2,7 @@ package net.leto.testingmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.leto.testingmod.TestingMod;
+import net.leto.testingmod.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -16,6 +17,10 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
 entries.add(ModItems.RUBY);
 entries.add(ModItems.RAW_RUBY);
+entries.add(ModBlocks.RUBY_BLOCK);
+entries.add(ModBlocks.RAW_RUBY_BLOCK);
+entries.add(ModBlocks.BOUNCY_BED_BLOCK);
+entries.add(ModBlocks.RUBY_ORE);
                     }).build());
     public static void registerItemGroups(){
         TestingMod.LOGGER.info("Registering Item Groups for " +TestingMod.MOD_ID);

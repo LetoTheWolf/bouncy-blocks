@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "testingmod:block/bouncy_bed_block"
+    }
+  }
+}
