@@ -16,17 +16,17 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.leto.testing.TestingMod"
+			"net.leto.testingmod.TestingMod"
 		],
 		"client": [
-			"net.leto.testing.TestingModClient"
+			"net.leto.testingmod.TestingModClient"
 		],
 		"fabric-datagen": [
-			"net.leto.testing.TestingModDataGenerator"
+			"net.leto.testingmod.TestingModDataGenerator"
 		]
 	},
 	"mixins": [
-		"testing.mixins.json"
+		"testingmod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.7",

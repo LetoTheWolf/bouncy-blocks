@@ -1,4 +1,4 @@
-package net.leto.testing;
+package net.leto.testingmod;
 
 import net.fabricmc.api.ClientModInitializer;
 
