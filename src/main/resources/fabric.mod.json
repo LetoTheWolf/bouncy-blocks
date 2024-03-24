@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "testing",
+	"version": "${version}",
+	"name": "Testing",
+	"description": "This is a testing mod to learn",
+	"authors": [
+		"LetoTheWolf"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/testing/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.leto.testing.TestingMod"
+		],
+		"client": [
+			"net.leto.testing.TestingModClient"
+		],
+		"fabric-datagen": [
+			"net.leto.testing.TestingModDataGenerator"
+		]
+	},
+	"mixins": [
+		"testing.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
