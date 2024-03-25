@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "testing",
+	"id": "bouncyblocks",
 	"version": "${version}",
-	"name": "Testing",
-	"description": "This is a testing mod to learn",
+	"name": "Bouncy Blocks",
+	"description": "This mod adds bouncy blocks!",
 	"authors": [
 		"LetoTheWolf"
 	],
@@ -16,17 +16,17 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.leto.testingmod.TestingMod"
+			"net.leto.bouncyblocks.BouncyBlocks"
 		],
 		"client": [
-			"net.leto.testingmod.TestingModClient"
+			"net.leto.bouncyblocks.BouncyBlocksClient"
 		],
 		"fabric-datagen": [
-			"net.leto.testingmod.TestingModDataGenerator"
+			"net.leto.bouncyblocks.BouncyBlocksDataGenerator"
 		]
 	},
 	"mixins": [
-		"testingmod.mixins.json"
+		"bouncyblocks.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.7",

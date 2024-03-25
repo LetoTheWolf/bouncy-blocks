@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bouncyblocks:block/light_blue_bouncy_bed_block"
+  }
+}

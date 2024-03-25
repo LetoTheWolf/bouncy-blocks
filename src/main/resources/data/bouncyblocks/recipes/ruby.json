@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "catgegory": "building",
+  "ingredients": [
+    {
+      "item": "bouncyblocks:ruby_block"
+    }
+  ],
+  "result": {
+    "item": "bouncyblocks:ruby",
+    "count": 9
+  }
+}

@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "testingmod:ruby_block",
-    "testingmod:raw_ruby_block",
-    "testingmod:ruby_ore"
+    "bouncyblocks:ruby_block",
+    "bouncyblocks:raw_ruby_block",
+    "bouncyblocks:ruby_ore"
   ]
 }
