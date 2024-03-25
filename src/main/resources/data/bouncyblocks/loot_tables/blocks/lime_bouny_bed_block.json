@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "bouncyblocks:raw_ruby_block"
+          "name": "bouncyblocks:lime_bouncy_bed_block"
         }
       ],
       "conditions": [

@@ -1,8 +1,5 @@
 {
   "replace": false,
   "values": [
-    "bouncyblocks:ruby_block",
-    "bouncyblocks:raw_ruby_block",
-    "bouncyblocks:ruby_ore"
   ]
 }

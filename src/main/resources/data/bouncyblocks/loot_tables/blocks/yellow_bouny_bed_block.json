@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "bouncyblocks:ruby_block"
+          "name": "bouncyblocks:yellow_bouncy_bed_block"
         }
       ],
       "conditions": [
