@@ -31,6 +31,25 @@ entries.add(ModBlocks.LIGHT_GRAY_BOUNCY_BED_BLOCK);
                         entries.add(ModBlocks.PURPLE_BOUNCY_BED_BLOCK);
                         entries.add(ModBlocks.MAGENTA_BOUNCY_BED_BLOCK);
                         entries.add(ModBlocks.PINK_BOUNCY_BED_BLOCK);
+                        entries.add(ModBlocks.GRAY_VERY_BOUNCY_BED_BLOCK);
+                        entries.add(ModBlocks.BLACK_VERY_BOUNCY_BED_BLOCK);
+                        entries.add(ModBlocks.BROWN_VERY_BOUNCY_BED_BLOCK);
+                        entries.add(ModBlocks.RED_VERY_BOUNCY_BED_BLOCK);
+                        entries.add(ModBlocks.ORANGE_VERY_BOUNCY_BED_BLOCK);
+                        entries.add(ModBlocks.YELLOW_VERY_BOUNCY_BED_BLOCK);
+                        entries.add(ModBlocks.LIME_VERY_BOUNCY_BED_BLOCK);
+                        entries.add(ModBlocks.GREEN_VERY_BOUNCY_BED_BLOCK);
+                        entries.add(ModBlocks.CYAN_VERY_BOUNCY_BED_BLOCK);
+                        entries.add(ModBlocks.LIGHT_BLUE_VERY_BOUNCY_BED_BLOCK);
+                        entries.add(ModBlocks.BLUE_VERY_BOUNCY_BED_BLOCK);
+                        entries.add(ModBlocks.PURPLE_VERY_BOUNCY_BED_BLOCK);
+                        entries.add(ModBlocks.MAGENTA_VERY_BOUNCY_BED_BLOCK);
+                        entries.add(ModBlocks.PINK_VERY_BOUNCY_BED_BLOCK);
+                        entries.add(ModBlocks.WHITE_VERY_BOUNCY_BED_BLOCK);
+                        entries.add(ModBlocks.LIGHT_GRAY_VERY_BOUNCY_BED_BLOCK);
+                        entries.add(ModBlocks.WHITE_LANDING_BLOCK);
+                        entries.add(ModBlocks.WHITE_LAUNCH_BLOCK);
+
                     }).build());
     public static void registerItemGroups(){
         BouncyBlocks.LOGGER.info("Registering Item Groups for " + BouncyBlocks.MOD_ID);

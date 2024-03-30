@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:white_wool"
+    },
+    "S": {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "pattern": [
+    "S",
+    "P"
+  ],
+  "result": {
+    "item": "bouncyblocks:white_landing_block"
+  }
+}

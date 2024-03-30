@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:white_wool"
+    },
+    "S": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    "S",
+    "P"
+  ],
+  "result": {
+    "item": "bouncyblocks:white_launch_block"
+  }
+}
